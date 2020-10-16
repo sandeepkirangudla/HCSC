@@ -4,8 +4,8 @@ import pandas as pd
 
 # Setting input and output path variables
 # input_pathnames
-covid = config.config.get('covid_df')
-pop = config.config.get('pop_df')
+covid = config.get('covid_df')
+pop = config.get('pop_df')
 output_pathname = IO_path.output_path('Enter output path folder:')
 
 # Read Data Files
